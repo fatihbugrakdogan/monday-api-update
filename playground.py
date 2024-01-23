@@ -1,0 +1,12 @@
+from monday import MondayClient
+
+
+monday_client = MondayClient(
+    "eyJhbGciOiJIUzI1NiJ9.eyJ0aWQiOjMxMTIxMjQ1OSwiYWFpIjoxMSwidWlkIjo1NDUzOTU0MSwiaWFkIjoiMjAyNC0wMS0xN1QxMzowMjoxMC4wMDBaIiwicGVyIjoibWU6d3JpdGUiLCJhY3RpZCI6MjA3OTk0MjUsInJnbiI6ImV1YzEifQ._BBVy-yeygRNSvaEauCfKTKI8rqErgzB1Ie3DQRKyW4"
+)
+
+
+print(monday_client.workspaces.get_workspaces())
+
+
+monday_client
